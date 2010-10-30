@@ -16,7 +16,6 @@ public class DeftServerExample {
 
 		HttpServer server = new HttpServer(application);
 		server.listen(8080);
-		IOLoop.INSTANCE.start();
-	
+		IOLoop.INSTANCE.start();	
 	}
 }
